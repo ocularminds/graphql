@@ -1,4 +1,4 @@
-#Node GraphQL
+# Node GraphQL
 
 1. npm install 
 2. npm install sequelize mysql2 --save
