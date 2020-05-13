@@ -46,10 +46,10 @@ CREATE TABLE `tickets` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `tickets` (`id`, `subject`, `priority_id`, `status_id`, `user_id`, `assigned_to_user_id`) VALUES
-(3,	'My computer is on fire🔥🔥',	3,	1,	2,	NULL),
-(4,	'MS Word is not starting, can someone help?👴🏿',	1,	2,	3,	2),
-(5,	'There is a bug in the 🛒 of the webshop, steps to reproduce are included',	3,	2,	4,	2),
-(6,	'404 error: website not found - website down?💀',	3,	4,	4,	2);
+(3,	'My computer is on fire',	3,	1,	2,	NULL),
+(4,	'MS Word is not starting, can someone help?',	1,	2,	3,	2),
+(5,	'There is a bug in the  of the webshop, steps to reproduce are included',	3,	2,	4,	2),
+(6,	'404 error: website not found - website down?',	3,	4,	4,	2);
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
