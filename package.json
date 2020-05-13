@@ -1,5 +1,5 @@
 {
-    "name": "graphql-express-migrating-mysql",
+    "name": "graphql",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -11,7 +11,7 @@
         "run": "node ./dist/app.js",
         "run:watch": "nodemon ./dist/app.js"
     },
-    "author": "Dirk H. Wolthuis",
+    "author": "Jejelowo B. Festus",
     "license": "ISC",
     "dependencies": {
         "@babel/core": "^7.3.4",
